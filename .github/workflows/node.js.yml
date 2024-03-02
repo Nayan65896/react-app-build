@@ -19,6 +19,7 @@ jobs:
           node-version: 20
 
       - name: Install Dependencies
+        working-directory: ./react-app-build
         run: npm install
 
       - name: Run Tests
