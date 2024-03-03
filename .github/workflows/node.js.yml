@@ -22,9 +22,9 @@ jobs:
         working-directory: ./react-app-build
         run: npm install
 
-#      - name: Run Tests
-#        working-directory: ./react-app-build
-#        run: npm test
+      - name: Run Tests
+        working-directory: ./react-app-build
+        run: npm test
 
       - name: Build React App
         working-directory: ./react-app-build
